@@ -64,7 +64,7 @@ export function AboutSection({ profile }: { profile: Profile }) {
               { label: 'Genres', value: 'Anime · Commercial · Game · Narration' },
               { label: 'Range', value: 'Soft & Gentle → Bold & Powerful' },
               { label: 'Languages', value: 'English · Open to Direction' },
-              { label: 'Availability', value: 'Open for Bookings' },
+              { label: 'Availability', value: 'Not for Bookings' },
             ].map((item, i) => (
               <motion.div
                 key={item.label}
